@@ -7,7 +7,7 @@
   "editor.fontFamily": "Input Mono, Fira Code, monospace",
 
   // Window
-  "window.zoomLevel": 0,
+  "window.zoomLevel": -1,
 
   // Workbench
   "workbench.colorTheme": "Vitesse Dark",
