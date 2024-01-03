@@ -1,0 +1,42 @@
+{
+  "import-module": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "im",
+    "body": ["import { $2 } from $1;"],
+    "description": "Import a module"
+  },
+  "export-all": {
+    "scope": "javascript,typescript",
+    "prefix": "ex",
+    "body": ["export * from '$1';"],
+    "description": "Export a module"
+  },
+  "vue-script-setup": {
+    "scope": "vue",
+    "prefix": "vu",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "const props = defineProps<{",
+      "  modelValue?: boolean,",
+      "}>()",
+      "$1",
+      "</script>",
+      "",
+      "<template>",
+      "  <div>",
+      "    <slot/>",
+      "  </div>",
+      "</template>"
+    ]
+  },
+  "vue-computed": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "com",
+    "body": ["computed(() => { $1 })"]
+  },
+  "vue-watch-effect": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "watchE",
+    "body": ["watchEffect(() => {", "  $1", "})"]
+  }
+}
