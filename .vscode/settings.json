@@ -1,13 +1,13 @@
 {
   // Editor
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "editor.formatOnSave": true,
   "editor.stickyScroll.enabled": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Input Mono, Fira Code, monospace",
 
   // Window
-  "window.zoomLevel": -1,
+  "window.zoomLevel": 0,
 
   // Workbench
   "workbench.colorTheme": "Vitesse Dark",
@@ -42,6 +42,9 @@
   "stylelint.enable": true,
   "stylelint.validate": ["css", "less", "scss", "sass", "vue", "postcss"],
 
+  // Git
+  "git.confirmSync": false,
+
   // Plugin: TODO Highlight
   "todohighlight.isEnable": true,
   "todohighlight.defaultStyle": {
@@ -64,5 +67,8 @@
       "text": "HACK:",
       "backgroundColor": "#d32f2f"
     }
-  ]
+  ],
+
+  // Plugin: Tabnine
+  "tabnine.experimentalAutoImports": true
 }
