@@ -5,6 +5,8 @@
   "editor.stickyScroll.enabled": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Input Mono, Fira Code, monospace",
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
 
   // Window
   "window.zoomLevel": -1,
@@ -14,6 +16,11 @@
   "workbench.preferredLightColorTheme": "Vitesse Light",
   "workbench.preferredDarkColorTheme": "Vitesse Dark",
   "workbench.iconTheme": "file-icons",
+  "workbench.tree.indent": 10,
+  "workbench.list.smoothScrolling": true,
+
+  // Terminal
+  "terminal.integrated.smoothScrolling": true,
 
   // Unknown words
   "cSpell.userWords": [
