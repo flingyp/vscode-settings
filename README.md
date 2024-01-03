@@ -1,6 +1,8 @@
 # VSCode Settings
 
-## Settings
+## ⛏️ Settings
+
+`.vscode/settings.json`
 
 ```json
 {
@@ -20,10 +22,24 @@
   "workbench.preferredDarkColorTheme": "Vitesse Dark",
   "workbench.iconTheme": "file-icons",
 
-  // Prettier
+  // Unknown words
+  "cSpell.userWords": [
+    "esbenp",
+    "Fira",
+    "Vitesse",
+    "todohighlight",
+    "Stylelint",
+    "Tabnine",
+    "flingyp"
+  ],
+
+  // Git
+  "git.confirmSync": false,
+
+  // Plugin: Prettier
   "prettier.enable": true,
 
-  // ESLint
+  // Plugin: ESLint
   "eslint.enable": true,
   "eslint.format.enable": true,
   "eslint.experimental.useFlatConfig": true,
@@ -43,12 +59,9 @@
     "yaml"
   ],
 
-  // Stylelint
+  // Plugin: Stylelint
   "stylelint.enable": true,
   "stylelint.validate": ["css", "less", "scss", "sass", "vue", "postcss"],
-
-  // Git
-  "git.confirmSync": false,
 
   // Plugin: TODO Highlight
   "todohighlight.isEnable": true,
@@ -75,11 +88,17 @@
   ],
 
   // Plugin: Tabnine
-  "tabnine.experimentalAutoImports": true
+  "tabnine.experimentalAutoImports": true,
+
+  // Plugin: TailwindCSS
+  "tailwindCSS.validate": true,
+  "tailwindCSS.rootFontSize": 16
 }
 ```
 
-## Global Code Snippets
+## ✒️ Code Snippets
+
+`.vscode/global.code-snippets`
 
 ```json
 {
@@ -126,4 +145,4 @@
 }
 ```
 
-## Plugins
+## ⛸️ Plugins
