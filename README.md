@@ -94,12 +94,15 @@
     }
   ],
 
-  // Plugin: Tabnine
-  "tabnine.experimentalAutoImports": true,
-
   // Plugin: TailwindCSS
   "tailwindCSS.validate": true,
-  "tailwindCSS.rootFontSize": 16
+  "tailwindCSS.rootFontSize": 16,
+
+  // Plugin: Black Formatter (Code Formatting for Python files)
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
 }
 ```
 
