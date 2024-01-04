@@ -30,7 +30,9 @@
     "todohighlight",
     "Stylelint",
     "Tabnine",
-    "flingyp"
+    "flingyp",
+    "tailwindcss",
+    "uniapp"
   ],
 
   // Git

@@ -37,7 +37,9 @@
     "todohighlight",
     "Stylelint",
     "Tabnine",
-    "flingyp"
+    "flingyp",
+    "tailwindcss",
+    "uniapp"
   ],
 
   // Git
@@ -156,3 +158,76 @@
 ```
 
 ## ⛸️ Plugins
+
+`.vscode/extensions.json`
+
+```json
+{
+  "recommendations": [
+    // VSCode Plugins
+    "antfu.theme-vitesse",
+    "file-icons.file-icons",
+
+    // Git Plugins
+    "eamodio.gitlens",
+    "donjayamanne.githistory",
+    "GitHub.vscode-pull-request-github",
+    "fabiospampinato.vscode-open-in-github",
+
+    // Python Plugins
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.black-formatter",
+    "donjayamanne.python-environment-manager",
+
+    // Frontend Plugins
+    "Vue.vscode-typescript-vue-plugin",
+    "ZixuanChen.vitest-explorer",
+    "antfu.unocss",
+    "bradlc.vscode-tailwindcss",
+    "stylelint.vscode-stylelint",
+    "mrmlnc.vscode-scss",
+    "esbenp.prettier-vscode",
+    "rvest.vs-code-prettier-eslint",
+    "csstools.postcss",
+    "xabikos.JavaScriptSnippets",
+    "antfu.iconify",
+    "afzalsayed96.icones",
+    "lokalise.i18n-ally",
+    "ecmel.vscode-html-css",
+    "dbaeumer.vscode-eslint",
+    "rodrigovallades.es7-react-js-snippets",
+    "EditorConfig.EditorConfig",
+    "formulahendry.auto-rename-tag",
+    "steoates.autoimport",
+    "rodrigovallades.es7-react-js-snippets",
+
+    // Uniapp Plugins
+    "uni-helper.uni-helper-vscode",
+    "uni-helper.uni-app-schemas-vscode",
+    "uni-helper.uni-app-snippets-vscode",
+    "uni-helper.uni-cloud-snippets-vscode",
+    "uni-helper.uni-ui-snippets-vscode",
+    "mrmaoddxxaa.create-uniapp-view",
+
+    // Other Plugins
+    "Perkovec.emoji",
+    "redhat.vscode-yaml",
+    "kaiyi.qwerty-learner",
+    "RichardZhang.quickly-log",
+    "christian-kohler.path-intellisense",
+    "unifiedjs.vscode-mdx",
+    "shd101wyy.markdown-preview-enhanced",
+    "ritwickdey.LiveServer",
+    "wix.vscode-import-cost",
+    "kisstkondoros.vscode-gutter-preview",
+    "flingyp.vscode-plugin-hot-news",
+    "usernamehw.errorlens",
+    "IronGeek.vscode-env",
+    "streetsidesoftware.code-spell-checker",
+    "AMiner.codegeex",
+    "mikestead.dotenv",
+    "wayou.vscode-todo-highlight"
+  ]
+}
+```
