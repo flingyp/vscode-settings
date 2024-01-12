@@ -15,9 +15,6 @@
   "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": "on",
 
-  // Window
-  "window.zoomLevel": -1,
-
   // Workbench
   "workbench.colorTheme": "Vitesse Dark",
   "workbench.preferredLightColorTheme": "Vitesse Light",
@@ -26,6 +23,9 @@
   "workbench.tree.indent": 10,
   "workbench.list.smoothScrolling": true,
 
+  // Window
+  "window.zoomLevel": -1,
+
   // Terminal
   "terminal.integrated.smoothScrolling": true,
 
@@ -33,13 +33,13 @@
   "cSpell.userWords": [
     "esbenp",
     "Fira",
-    "Vitesse",
-    "todohighlight",
+    "flingyp",
     "Stylelint",
     "Tabnine",
-    "flingyp",
     "tailwindcss",
-    "uniapp"
+    "todohighlight",
+    "uniapp",
+    "Vitesse"
   ],
 
   // Git
@@ -104,13 +104,18 @@
   "[python]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "ms-python.black-formatter"
-  }
+  },
+
+  // Plugin: Codegeex
+  "Codegeex.Privacy": false
 }
 ```
 
 ## ✒️ Code Snippets
 
 `.vscode/global.code-snippets`
+
+- [Code Snippets Generate Website](https://snippet-generator.app/)
 
 ```json
 {
