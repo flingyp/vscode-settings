@@ -230,9 +230,9 @@
     "usernamehw.errorlens",
     "IronGeek.vscode-env",
     "streetsidesoftware.code-spell-checker",
-    "AMiner.codegeex",
     "mikestead.dotenv",
-    "wayou.vscode-todo-highlight"
+    "wayou.vscode-todo-highlight",
+    "Codeium.codeium"
   ]
 }
 ```
