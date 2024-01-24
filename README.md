@@ -126,14 +126,14 @@
     "description": "Import a module"
   },
   "export-all": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,vue",
     "prefix": "ex",
     "body": ["export * from '$1';"],
     "description": "Export a module"
   },
   "vue-script-setup": {
     "scope": "vue",
-    "prefix": "vu",
+    "prefix": "vus",
     "body": [
       "<script setup lang=\"ts\">",
       "const props = defineProps<{",
@@ -154,9 +154,22 @@
     "prefix": "com",
     "body": ["computed(() => { $1 })"]
   },
+  "vue-watch": {
+    "scope": "javascript,typescript,vue",
+    "prefix": "wat",
+    "body": [
+      "watch(",
+      "  () => $1,",
+      "  () => { $2 },",
+      "  {",
+      "    immediate: true,",
+      "  }",
+      ");"
+    ]
+  },
   "vue-watch-effect": {
     "scope": "javascript,typescript,vue",
-    "prefix": "watchE",
+    "prefix": "watE",
     "body": ["watchEffect(() => {", "  $1", "})"]
   }
 }
