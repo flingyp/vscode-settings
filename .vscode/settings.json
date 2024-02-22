@@ -97,5 +97,9 @@
   "[python]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "ms-python.black-formatter"
-  }
+  },
+
+  // Plugin: CodeGeeX
+  "Codegeex.Privacy": true,
+  "Codegeex.SidebarUI.LanguagePreference": "中文"
 }
