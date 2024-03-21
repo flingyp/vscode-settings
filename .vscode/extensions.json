@@ -62,7 +62,7 @@
     "IronGeek.vscode-env",
     "streetsidesoftware.code-spell-checker",
     "mikestead.dotenv",
-    "wayou.vscode-todo-highlight",
-    "Codeium.codeium"
+    "Codeium.codeium",
+    "Gruntfuggly.todo-tree"
   ]
 }
