@@ -72,30 +72,6 @@
   "stylelint.enable": true,
   "stylelint.validate": ["css", "less", "scss", "sass", "vue", "postcss"],
 
-  // Plugin: TODO Highlight
-  "todohighlight.isEnable": true,
-  "todohighlight.defaultStyle": {
-    "color": "#fff"
-  },
-  "todohighlight.keywords": [
-    {
-      "text": "TODO:",
-      "backgroundColor": "#fbc02d"
-    },
-    {
-      "text": "FIX:",
-      "backgroundColor": "#1976d2"
-    },
-    {
-      "text": "CHORE:",
-      "backgroundColor": "#388e3c"
-    },
-    {
-      "text": "HACK:",
-      "backgroundColor": "#d32f2f"
-    }
-  ],
-
   // Plugin: TailwindCSS
   "tailwindCSS.validate": true,
   "tailwindCSS.rootFontSize": 16,
@@ -106,8 +82,15 @@
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
 
-  // Plugin: Codegeex
-  "Codegeex.Privacy": false
+  // Plugin: CodeGeeX
+  "Codegeex.Privacy": true,
+  "Codegeex.SidebarUI.LanguagePreference": "中文",
+  "Codegeex.EnableExtension": true,
+  "Codegeex.Comment.LanguagePreference": "中文",
+
+  // Plugin: GitLens
+  "gitlens.graph.minimap.enabled": false,
+  "gitlens.graph.minimap.additionalTypes": ["stashes"]
 }
 ```
 
@@ -244,8 +227,9 @@
     "IronGeek.vscode-env",
     "streetsidesoftware.code-spell-checker",
     "mikestead.dotenv",
-    "wayou.vscode-todo-highlight",
-    "Codeium.codeium"
+    "Codeium.codeium",
+    "Gruntfuggly.todo-tree",
+    "pnp.polacode"
   ]
 }
 ```
