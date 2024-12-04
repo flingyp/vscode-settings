@@ -6,6 +6,9 @@
 
 ```json
 {
+  // Window
+  "window.zoomLevel": -1,
+
   // Editor
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
@@ -17,33 +20,47 @@
 
   // Workbench
   "workbench.colorTheme": "Vitesse Dark",
-  "workbench.preferredLightColorTheme": "Vitesse Light",
-  "workbench.preferredDarkColorTheme": "Vitesse Dark",
   "workbench.iconTheme": "file-icons",
   "workbench.tree.indent": 10,
   "workbench.list.smoothScrolling": true,
-
-  // Window
-  "window.zoomLevel": -1,
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "gitlens.rebase"
+  },
 
   // Terminal
   "terminal.integrated.smoothScrolling": true,
 
+  // Files
+  "files.associations": {
+    "*.nvue": "vue",
+    "*.uvue": "vue",
+    "*.uts": "typescript"
+  },
+
   // Unknown words
   "cSpell.userWords": [
+    "animationfinish",
+    "chooseavatar",
     "esbenp",
     "Fira",
     "flingyp",
+    "statechanged",
     "Stylelint",
     "Tabnine",
     "tailwindcss",
     "todohighlight",
     "uniapp",
+    "uvicon",
     "Vitesse"
   ],
 
   // Git
   "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.ignoreRebaseWarning": true,
+
+  // JavaScript
+  "javascript.updateImportsOnFileMove.enabled": "always",
 
   // Plugin: Prettier
   "prettier.enable": true,
@@ -51,7 +68,7 @@
   // Plugin: ESLint
   "eslint.enable": true,
   "eslint.format.enable": true,
-  "eslint.experimental.useFlatConfig": true,
+  "eslint.useFlatConfig": true,
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -75,6 +92,9 @@
   // Plugin: TailwindCSS
   "tailwindCSS.validate": true,
   "tailwindCSS.rootFontSize": 16,
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
 
   // Plugin: Black Formatter (Code Formatting for Python files)
   "[python]": {
@@ -87,10 +107,33 @@
   "Codegeex.SidebarUI.LanguagePreference": "中文",
   "Codegeex.EnableExtension": true,
   "Codegeex.Comment.LanguagePreference": "中文",
+  "Codegeex.License": "",
 
   // Plugin: GitLens
   "gitlens.graph.minimap.enabled": false,
-  "gitlens.graph.minimap.additionalTypes": ["stashes"]
+  "gitlens.graph.minimap.additionalTypes": ["stashes"],
+  "gitlens.views.stashes.files.layout": "tree",
+  "gitlens.views.branches.files.layout": "list",
+  "gitlens.views.branches.branches.layout": "list",
+
+  // Plugin: TODO Tree
+  "todo-tree.highlights.defaultHighlight": {
+    "background": "#19be6b",
+    "foreground": "#fff",
+    "fontStyle": "italic",
+    "fontWeight": "bold"
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "CHORE",
+    "TIP",
+    "[ ]",
+    "[x]"
+  ]
 }
 ```
 
